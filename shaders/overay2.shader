@@ -51,7 +51,6 @@
 				* float4(_sizeX, _sizeY, 1.0, 1.0)
 				);
 				output.tex = float2(-input.texcoord.x + 1.0, -input.texcoord.y + 1.0);
-				
 				return output;
 			}
 			
