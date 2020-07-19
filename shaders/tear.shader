@@ -42,7 +42,7 @@
                 v2f o;
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 o.uv = TRANSFORM_TEX(v.uv, _MainTex);
-				o.grab_uv = UNITY_PROJ_COORD(ComputeGrabScreenPos(o.vertex));
+		o.grab_uv = UNITY_PROJ_COORD(ComputeGrabScreenPos(o.vertex));
                 return o;
             }
 			
