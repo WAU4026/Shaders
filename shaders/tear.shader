@@ -83,7 +83,6 @@
 				x += part2;
 				x += part3;
 				
-				
 				float2 pos = gv - float2(x, y);
 				
 				float water = 1 - smoothstep(0, .3, length(pos));
