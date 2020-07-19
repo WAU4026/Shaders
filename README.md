@@ -1,4 +1,6 @@
 # tearShader
-Unity tear shader
+Unity shader collections.
 
 for using VRChat
+
+(Personal use)
